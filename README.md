@@ -20,7 +20,7 @@ Activate the Python environment in which the original command
 
 ```bash
 python deepkoala_stream.py \
-  -i allprotein.20.faa \
+  -i largequeries.faa \
   -o deepkoala_stream_results \
   --model frag \
   --device cuda \
@@ -56,7 +56,7 @@ Remove only `--max-parts 1` and keep every other option unchanged:
 
 ```bash
 python deepkoala_stream.py \
-  -i allprotein.20.faa \
+  -i largequeries.faa \
   -o deepkoala_stream_results \
   --model frag \
   --device cuda \
